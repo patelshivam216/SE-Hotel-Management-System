@@ -1,0 +1,19 @@
+Card(
+              child: Column(
+            children: [
+              Row(
+                children: [
+                  Expanded(
+                      child: Text("Room #" + room.id.toString(),
+                          style: TextStyle(fontSize: 25))),
+                  Text(room.isAc ? "AC" : "Non-AC",
+                      style: TextStyle(fontSize: 18)),
+                ],
+              ),
+              room.imageUrls.isNotEmpty
+                  ? Image.network(
+                      room.imageUrls.first,
+                    )
+                  : Text("No Image Available!"),
+            ],
+          ));
