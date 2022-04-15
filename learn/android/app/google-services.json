@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "933700698852",
+    "project_id": "seproj-65641",
+    "storage_bucket": "seproj-65641.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933700698852:android:25bcb7fdfd5e32063862f1",
+        "android_client_info": {
+          "package_name": "com.example.learn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933700698852-03rodp6p9vd4q3eqesjuepirkljufq63.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.learn",
+            "certificate_hash": "e781495f6321949fa36ef95e935410fac3fd8098"
+          }
+        },
+        {
+          "client_id": "933700698852-gcueg7pfbo64lm62je7hgr9e0hibdsho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcsm0hKbsZmEqtnFqA_uNrsTn0YoioQaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933700698852-gcueg7pfbo64lm62je7hgr9e0hibdsho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
