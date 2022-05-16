@@ -1,6 +1,5 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'user_home.dart';
 import 'user_createAccount.dart';
 
@@ -79,7 +78,8 @@ class _UserLoginState extends State<UserLogin> {
                     Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(
-                            builder: (BuildContext ctx) => UserHome()));
+                            builder: (BuildContext ctx) =>
+                                UserHome(enteredUserName)));
                   } else {
                     setState(() {
                       info = 'wrong Password';
